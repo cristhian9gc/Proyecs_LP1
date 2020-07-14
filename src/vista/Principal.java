@@ -74,7 +74,7 @@ public class Principal {
         int opcion;
         do{
             menu();
-            opcion =Leer.entero();
+            opcion = Leer.entero();
         
             switch(opcion){
                 case 1: factorial();
